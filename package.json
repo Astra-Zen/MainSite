@@ -3,13 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Astra-Zen.github.io/AstraZen",
+  "homepage": "https://Astra-Zen.github.io/MainSite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d build",
     "lint": "eslint ."
   },
   "dependencies": {
